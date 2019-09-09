@@ -1,18 +1,16 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Content from './Content';
+import CharacterCard from './CharacterCard.js';
+import WordCard from './WordCard.js';
 
-let x = 10
+const word = "KOKI";
 class App extends Component {
-    render() {
-        return ( 
-          <div className = "App">
-            Hello { x } 
-            <Content />
-            </div>
-        );
-    }
-
+  render() {
+    return (
+      <div>
+        <WordCard value="KOKI" />
+      </div>
+    );
+  }
 }
 export default App;

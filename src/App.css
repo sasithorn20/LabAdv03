@@ -1,14 +1,34 @@
-.card {
-    display: inline-block;
-    text-align: center;
-    width: 3em;
-    font-size: 2em;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 2em;
-    user-select: none;
+@import url("https://fonts.googleapis.com/css?family=Abel&display=swap");
+.app {
+  background-color: rgb(132, 231, 231);
 }
-
+.card {
+  display: inline-block;
+  text-align: center;
+  width: 3em;
+  font-size: 2em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 2em;
+  user-select: none;
+  color: rgb(12, 67, 195);
+}
 .activeCard {
-    color: red;
-    background: pink;
+  color: rgb(9, 24, 238);
+  background: rgb(98, 224, 224);
+  font-family: "Abel", sans-serif;
+  margin-top: 10px;
+}
+.App-title {
+  text-align: center;
+  font-family: "Abel", sans-serif;
+  color: rgb(25, 117, 209);
+  margin-top: 150px;
+  font-size: 80px;
+}
+.App-Question {
+  color: rgb(248, 159, 58);
+  text-align: center;
+  margin-top: 50px;
+  font-size: 60px;
+  font-family: "Abel", sans-serif;
 }
